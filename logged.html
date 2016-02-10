@@ -14,6 +14,7 @@
     	<link rel="stylesheet" href="css/app.css" />
     	<link href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet">
     	<script src="script.js"></script>
+			<script src="main.js"></script>
     	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     	<!--[if lt IE 9]>
@@ -36,6 +37,23 @@
 				<div class="large-12 columns">
 					<div class="callout large">
 						<h2>You have been logged in</h2>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="menu">
+			<div class="row">
+				<div class="large-12 columns">
+					<div class="callout large">
+						<form class="options">
+							<select id="optSel">
+								<option id="opt1" value="1">Balance</option>
+								<option id="opt2" value="2">Deposit</option>
+								<option id="opt3" value="3">Withdrawl</option>
+								<option id="opt4" value="4">Logout</option>
+							</select>
+							<button type="submit" id="optSelect" class="small button" onclick="optionSelect()">select</button>
+						</form>
 					</div>
 				</div>
 			</div>
