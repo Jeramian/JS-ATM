@@ -1,3 +1,4 @@
+'use strict'
 var balance;
 
 var info = document.createElement('p');
